@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_graph"
+    app:startDestination="@id/bottomFragment1">
+
+    <fragment
+        android:id="@+id/bottomFragment1"
+        android:name="com.example.navigation2.BottomFragment1"
+        android:label="Agenda"
+        tools:layout="@layout/fragment_bottom1" />
+
+    <fragment
+        android:id="@+id/bottomFragment2"
+        android:name="com.example.navigation2.BottomFragment2"
+        android:label="Crear Tarea"
+        tools:layout="@layout/fragment_bottom2" />
+
+</navigation>
